@@ -14,9 +14,11 @@ class Home extends StatelessWidget {
           title: Text("فكرة"),
           backgroundColor: Color.fromARGB(255, 0, 0, 255),
         ),
-        body: Image(
-          image: NetworkImage(
-              "https://png.pngtree.com/element_our/png_detail/20190103/ideainsightkeylamplightbulb-line-icon-png_307494.jpg"),
+        body: Center(
+          child: Image(
+            image: NetworkImage(
+                "https://png.pngtree.com/element_our/png_detail/20190103/ideainsightkeylamplightbulb-line-icon-png_307494.jpg"),
+          ),
         ),
       ),
     );
