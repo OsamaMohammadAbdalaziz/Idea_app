@@ -11,7 +11,13 @@ class Home extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Color.fromRGBO(0, 145, 255, 1),
         appBar: AppBar(
-          title: Text("فكرة"),
+          title: Text(
+            "فكرة",
+            style: TextStyle(
+              fontSize: 25,
+              color: Color.fromARGB(255, 255, 255, 255),
+            ),
+          ),
           backgroundColor: Color.fromARGB(255, 0, 0, 255),
         ),
         body: Center(
