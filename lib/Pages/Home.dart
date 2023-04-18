@@ -16,8 +16,7 @@ class Home extends StatelessWidget {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                "https://png.pngtree.com/element_our/png_detail/20190103/ideainsightkeylamplightbulb-line-icon-png_307494.jpg"),
+            image: AssetImage("lib/Images/idea-loading.avif"),
           ),
         ),
       ),
