@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
             child: Column(
               children: const [
                 Text(
-                  "Ideal App",
+                  "Idea App",
                   style: TextStyle(
                     fontSize: 25,
                     color: Color.fromARGB(255, 255, 255, 255),
